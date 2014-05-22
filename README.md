@@ -12,7 +12,7 @@ Vagrant config to create a virtualized big data research cluster,including zooke
 Notice:
 
 1. apache-storm-0.9.1-incubating-src Count Lines of Code
- -------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------
     Language                     files          blank        comment           code
     -------------------------------------------------------------------------------
     Java                           450           9314          11871          46365
