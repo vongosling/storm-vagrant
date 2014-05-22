@@ -14,6 +14,7 @@ Notice:
 1. apache-storm-0.9.1-incubating-src Count Lines of Code
 ****
       Language                     files          blank        comment           code
+****
       Java                           450           9314          11871          46365
       Clojure                         80           1648           1833          12240
       Python                           9           1030            611           6139
@@ -24,7 +25,7 @@ Notice:
       Ruby                             3             47             48            204
       YAML                             1             18             30             96
       Bourne Shell                     1              1             15              6
-   
+****
       SUM:                           561          12240          14683          69259
   
 
