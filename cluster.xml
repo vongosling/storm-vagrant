@@ -2,9 +2,9 @@
 
 <configuration scan="true" scanPeriod="60 seconds">
  <appender name="A1" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>/var/log/storm/${logfile.name}</file>
+    <file>/home/storm/${logfile.name}</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-      <fileNamePattern>/var/log/storm/${logfile.name}.%i</fileNamePattern>
+      <fileNamePattern>/home/storm/${logfile.name}.%i</fileNamePattern>
       <minIndex>1</minIndex>
       <maxIndex>9</maxIndex>
     </rollingPolicy>
@@ -19,9 +19,9 @@
  </appender>
 
  <appender name="ACCESS" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>/var/log/storm/access.log</file>
+    <file>/home/storm/access.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-      <fileNamePattern>/var/log/storm/access.log.%i</fileNamePattern>
+      <fileNamePattern>/home/storm/access.log.%i</fileNamePattern>
       <minIndex>1</minIndex>
       <maxIndex>9</maxIndex>
     </rollingPolicy>
@@ -36,7 +36,7 @@
   </appender>
 
   <appender name="METRICS" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>/var/log/storm/metrics.log</file>
+    <file>/home/storm/metrics.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
       <fileNamePattern>metrics.log.%i</fileNamePattern>
       <minIndex>1</minIndex>

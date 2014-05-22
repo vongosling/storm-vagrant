@@ -1,8 +1,9 @@
 
 storm.zookeeper.servers:
-    - "zookeeper"
+    - "127.0.0.1"
+storm.zookeeper.port: 2181
 
-nimbus.host: "nimbus"
+nimbus.host: "127.0.0.1"
 
 # netty transport
 storm.messaging.transport: "backtype.storm.messaging.netty.Context"
@@ -11,5 +12,3 @@ storm.messaging.netty.max_retries: 10
 storm.messaging.netty.min_wait_ms: 1000
 storm.messaging.netty.max_wait_ms: 5000
 
-drpc.servers:
-  - "nimbus"
