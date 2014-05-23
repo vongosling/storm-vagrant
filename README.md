@@ -1,4 +1,4 @@
-Bigdata-Research-vagrant
+Bigdata-Research-Vagrant
 =============
 
 Vagrant config to create a virtualized big data research cluster,including zookeeper,storm,kafka...
